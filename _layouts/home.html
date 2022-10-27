@@ -10,7 +10,7 @@ layout: default
     <!-- Loop through different blog post -->
     <ul>
     {% for post in site.blog %}
-    {% if post.hidden == false | limit:3 %}
+    {% if post.hidden == false %}
         <li>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         </li>
@@ -22,7 +22,7 @@ layout: default
     <!-- Loop through different projects -->
     <ul>
     {% for project in site.projects %}
-    {% if project.hidden == false | limit:3 %}
+    {% if project.hidden == false %}
         <li>
             <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
         </li>
@@ -34,7 +34,7 @@ layout: default
     <!-- Loop through different publications -->
     <ul>
     {% for pub in site.publications %}
-    {% if pub.hidden == false | limit:3 %}
+    {% if pub.hidden == false %}
         <li>
             <h3>{{ pub.title }}</h3>
         </li>
