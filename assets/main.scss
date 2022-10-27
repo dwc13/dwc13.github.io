@@ -1,0 +1,91 @@
+---
+---
+@import "minima";
+
+@import "assets/home.scss";
+
+// Blue HEX Color: #408EB9
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+.site-header { display: grid; }
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  margin: 0 25px;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  font-size: 1.2em;
+  line-height: 54px;
+  margin-bottom: 0;
+  list-style-type: none;
+  position: absolute;
+  right: 25px;
+}
+
+.home {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (min-width:1000px){
+	.content {
+		flex-direction: row;
+	}
+}
+
+h1 {
+	margin: 5px 0;
+	font-size: 5.5em; 
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-shadow: 0px 3px 9px black;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+} 
+
+p {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+a { color: black; }
+
+img { max-width: 25vw; }
+
+.site-footer {
+	font-size: 0.8em;
+	position:fixed;
+	bottom: 3px;
+	right: 5px;
+	text-align: center;
+}
+
+.post-content {
+    text-align: center;
+}
