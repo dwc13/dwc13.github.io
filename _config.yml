@@ -1,24 +1,32 @@
 title: Dominic Carrillo
-email: DWCarrillo@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Ph.D. student specializing in SLAM, Computer Vision, Autonomous Driving under the Connected Autonomous Vehicle lab at University of North Texas.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: CarrilloDominic
-github_username: dwc13 
-linkedin_username: dwc13
-instagram_username: dwc_13
-# discord_username: Rocket로켓#3172
+logo: /assets/img/headshot.jpg
+bemail: DWCarrillo@outlook.com
+semail: DominicCarrillo@my.unt.edu
+description: PhD Canididate at University of North Texas under Dr. Qing Yang.
+favicon: false 
+color-scheme: auto
 
-# Build settings
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-remote-theme
 
-collections:
-  publications:
-    output: true
-  blog:
-    output: true
-  projects:
-    output: true
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/dwc13
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/dwc13
+
+navigation:
+  - name: Readme
+    link: ./index.html
+    # sublist:
+    #   - name: Image
+    #     link: ./index.html#small-image
+  # - name: Another Page
+  #   link: ./another-page.html
+  - name: CV
+    link: /assets/pdf/Dominic-Carrillo-CV.pdf

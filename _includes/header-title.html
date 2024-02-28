@@ -1,0 +1,16 @@
+{% if site.logo %}
+<img class="logo" src="{{ site.logo | relative_url }}" alt="Logo">
+{% endif %}
+
+{% if site.blank_title %}
+<h1>{{ site.title | default: site.github.repository_name }}</h1>
+{% else %}
+<h1>{{ site.title | default: site.github.repository_name }}</h1>
+{% endif %}
+
+{% if site.bemail %}
+<p class="addr"><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:{{site.bemail}}">{{ site.bemail }}</a></p>
+{% endif %}
+{% if site.semail %}
+<p class="addr"><i class="fa-solid fa-envelope"></i>&nbsp;<a href="mailto:{{site.semail}}">{{ site.semail }}</a></p>
+{% endif %}
