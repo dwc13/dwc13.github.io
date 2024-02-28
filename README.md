@@ -15,3 +15,7 @@ There are many steps to take but here are them in order;
 
 ## Contributors
 - [@Dominic Carrillo](https://github.com/dwc13)
+
+## Credits:
+
+This theme was built using [Minimalist](https://github.com/BDHU/minimalist) theme by BDHU and [Minimal](https://github.com/pages-themes/minimal) by GithHub.
