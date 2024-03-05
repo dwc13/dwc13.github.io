@@ -14,24 +14,22 @@ P.I. [Dr. Qing Yang](http://www.cse.unt.edu/~qingyang/)
 ___
 ## Hello!
 
-I am studying different subfields in Autonomous Vehicle, e.g. Object Detection, Tracking, SLAM, Locationization, Mapping, Alignment, Cooperative Perception, or End-to-End Vehicle System.
-In the last 3 years, I have read many single agent object detection systems with simple improvements with no applications to improve real-world autonomous vehicle systems. 
-My goal is to seek the benefits of Cooperatation between multiple agents to improve vehicle's Perception and Mapping within the automotive domain.
+I'm studying various subfields of autonomous vehicles, such as object detection, tracking, SLAM, locationization, mapping, alignment, cooperative perception, and end-to-end vehicle systems.
+In the last three years, I've studied numerous articles about single-agent object detection systems that have modest improvements but no applications for improving real-world autonomous vehicles.
+My goal is to investigate the benefits of multi-agent cooperation to improve vehicle perception and mapping in the automotive industry.
 
 ## Why PhD?
 
-Growing up my father, owning a small mechanic shop, taught me many technical skills with a heavy work ethic.
-However, with no knowledge in how computers are programmed I became curious in Computer Science and Engineering.
-Thus, went to [Sul Ross State University](https://www.sulross.edu/) to obtain my B.S. in Computer Science.
+Growing up, my father, who owned a small mechanic shop, taught me fundamental technical skills and instilled in me a strong work ethic.
+However, my lack of understanding regarding the programming of computers sparked my curiosity in the fields of Computer Science and Engineering. 
+As a result, I attended [Sul Ross State University](https://www.sulross.edu/) to earn my B.S. in Computer Science.
 
-My Interest in graduate studies start from being part of the McNair Scholars Program at Sul Ross State University in the Summer of 2016.
-[Dr. Angela Brown](https://srinfo.sulross.edu/fs/8655), my undergraduate mentor, encourage me to strive and challenge myself. 
-Her faith is my motivation, and has repeatly said, "You can do great things."
+[Dr. Angela Brown](https://srinfo.sulross.edu/fs/8655), my undergraduate mentor, encourages me to go beyond and challenge myself.
+Her faith inspires me, and she keeps telling me, "You can do great things."
+In the summer of 2016, I was introduced to Sul Ross State University's McNair Scholars Program.
+Attending conferences to present my projects and seeing various presentations or keynotes opened my eyes to expanding my academic knowledge base.
 
-During my undergraduate studies, I would attend multiple conference to present small research work that I had conducted.
-While attending the different presentation or keynotes openned my eyes in expanding my knowledge base in academia.
-
-At the career fair, I would spend majority of my time conversating with multiple university ambassortors.
-[Mrs. Kathryn Beasley](https://engineering.unt.edu/people/kathryn-beasley) went the extra mile to pull me to visit University of North Texas.
-From multiple visits, I got the chance to talk with [Dr. Qing Yang](http://www.cse.unt.edu/~qingyang/), who also encourage me to apply for the Ph.D. degree and work under him.
-Dr. Yang's research with vehicles was my initial interest, however that interest grew as large as the research field of Cooperative Autonomous Vehicles.
+During the career fair, I would spend the majority of my time speaking with university ambassadors.
+[Mrs. Kathryn Beasley](https://engineering.unt.edu/people/kathryn-beasley) went out of her way to persuade me to visit the University of North Texas.
+During several visits, I had the opportunity to speak with [Dr. Qing Yang](http://www.cse.unt.edu/~qingyang/), who also encouraged me to apply for a Ph.D. and work for him.
+Dr. Yang's vehicle research piqued my interest at first, but it eventually expanded to include the entire field of Cooperative Autonomous Vehicles.
