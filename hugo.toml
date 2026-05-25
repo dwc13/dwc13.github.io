@@ -1,0 +1,33 @@
+baseURL = "https://dwc13.github.io/"
+languageCode = "en-us"
+title = "Dominic Carrillo"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "PhD Candidate at University of North Texas under Dr. Qing Yang."
+  tagline = "Computer Science & Engineering · University of North Texas"
+  email = "DWCarrillo@outlook.com"
+  schoolEmail = "DominicCarrillo@my.unt.edu"
+  headshot = "https://placehold.co/360x360/e8e8e8/1a1a1a?text=Photo"
+  cv = "/pdf/dominic-carrillo-cv.pdf"
+  github = "https://github.com/dwc13"
+  linkedin = "https://www.linkedin.com/in/dwc13"
+  github_user = "dwc13"
+  github_repo = "dwc13-website"
+  github_branch = "refactor"
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "CV"
+  url = "/pdf/dominic-carrillo-cv.pdf"
+  weight = 2
+
+[outputs]
+  home = ["HTML"]
+
+[permalinks]
+  projects = "/projects/:slug/"

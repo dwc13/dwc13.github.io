@@ -61,3 +61,8 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
+
+## Hugo
+/public
+/resources
+.hugo_build.lock
