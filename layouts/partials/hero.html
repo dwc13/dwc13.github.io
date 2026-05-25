@@ -1,17 +1,13 @@
 <section class="relative w-full">
-  <div class="min-h-[50vh] md:min-h-[60vh] rounded-lg overflow-hidden hero-banner">
+  <div class="rounded-lg overflow-hidden hero-banner">
     <div class="hero-banner__pattern" aria-hidden="true"></div>
     <div class="hero-banner__overlay" aria-hidden="true"></div>
-    <div class="hero-banner__content min-h-[50vh] md:min-h-[60vh]">
-      <div class="hero-banner__text w-full md:max-w-[62%]">
+    <div class="hero-banner__content">
+      <div class="hero-banner__text w-full md:flex-1 md:min-w-0">
         <h1>{{ .Site.Title }}</h1>
-        <p class="mt-4 text-base md:text-lg hero-tagline">{{ .Site.Params.tagline }}</p>
+        <h2 class="mt-4 hero-banner__subheading hero-tagline">{{ .Site.Params.tagline }}</h2>
         <div class="hero-banner__meta">
-          <p>{{ .Site.Params.description }}</p>
-          <p class="mt-3">
-            PhD research in autonomous vehicles, cooperative perception, and multi-agent systems at
-            <a href="https://computerscience.engineering.unt.edu/">UNT CSE</a>.
-          </p>
+          <p class="hero-banner__description">{{ .Site.Params.description }}</p>
         </div>
         <p class="hero-banner__links">
           <a href="{{ .Site.Params.github }}">GitHub</a>

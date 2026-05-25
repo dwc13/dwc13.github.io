@@ -17,11 +17,6 @@ disableKinds = ["taxonomy", "term"]
   github_branch = "refactor"
 
 [[menu.main]]
-  name = "Portfolio"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
   name = "CV"
   url = "/pdf/dominic-carrillo-cv.pdf"
   weight = 2
