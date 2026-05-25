@@ -8,7 +8,7 @@ role: ""
 tools: "Autoware, ROS"
 year: ""
 github: ""
-gittree: "content/projects/connected-autonomous-vehicle"
+gittree: ""
 gallery: []
 sidebar:
   - label: Type

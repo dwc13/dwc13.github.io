@@ -8,7 +8,7 @@ role: ""
 tools: "F1TENTH, ROS"
 year: ""
 github: ""
-gittree: "content/projects/f1tenth"
+gittree: ""
 gallery: []
 sidebar:
   - label: Type

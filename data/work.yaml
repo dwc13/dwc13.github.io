@@ -7,11 +7,11 @@ visible:
     year: "2023-2025"
   - name: Connected Autonomous Vehicles Lab
     description: Research in 2D/3D data fusion, cooperative perception, Autoware/ROS validation
-    year: "2019-"
+    year: "2019-Current"
 hidden:
   - name: NSF IUCRC eCAT
     description: Collaborative research on electrification, resilient sensing/perception, and edge computing
-    year: "2024-"
+    year: "2024-Current"
   - name: Reviewer — MOST, INFOCOM
     description: Peer reviewer for MOST (2024) and INFOCOM (2023)
     year: "2023-2024"
