@@ -1,0 +1,24 @@
+{{ $images := slice }}
+{{ if .Params.gallery }}
+  {{ range .Params.gallery }}
+    {{ with $.Resources.GetMatch . }}
+      {{ $images = $images | append . }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ $images = .Resources.Match "assets/*" }}
+{{ end }}
+{{ if gt (len $images) 0 }}
+  <section class="mb-8" aria-label="Project gallery">
+    <div class="section-label mb-3">Gallery</div>
+    <div class="gallery-grid">
+      {{ range $images }}
+        {{ if eq .MediaType.MainType "image" }}
+          <figure>
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" loading="lazy" />
+          </figure>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

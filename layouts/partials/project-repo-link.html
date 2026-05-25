@@ -1,0 +1,13 @@
+{{ $url := "" }}
+{{ with .Params.github }}
+  {{ $url = . }}
+{{ else }}
+  {{ with .Params.gittree }}
+    {{ $url = printf "https://github.com/%s/%s/tree/%s/%s" $.Site.Params.github_user $.Site.Params.github_repo $.Site.Params.github_branch . }}
+  {{ end }}
+{{ end }}
+{{ with $url }}
+  <p class="mb-6">
+    <a class="btn-repo" href="{{ . }}" target="_blank" rel="noopener noreferrer">View project files</a>
+  </p>
+{{ end }}

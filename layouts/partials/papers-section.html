@@ -1,0 +1,20 @@
+<section class="mt-12">
+  <div class="section-label">Papers</div>
+  <div class="mt-4 surface-card p-4 sm:p-6">
+    <div class="space-y-3 text-sm">
+      {{ range .Site.Data.papers.items }}
+        <div class="work-row">
+          <div class="font-semibold">
+            {{ if .link }}
+              <a class="link-accent hover:opacity-80" href="{{ .link }}">{{ .title }}</a>
+            {{ else }}
+              {{ .title }}
+            {{ end }}
+          </div>
+          <div class="text-muted">{{ .venue }}</div>
+          <div class="text-muted-fg">{{ .year }}</div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
