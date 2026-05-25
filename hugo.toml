@@ -6,9 +6,9 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "PhD Candidate at University of North Texas under Dr. Qing Yang."
   tagline = "Computer Science & Engineering · University of North Texas"
-  email = "DWCarrillo@outlook.com"
+  email = "Dominic.Wade@proton.me"
   schoolEmail = "DominicCarrillo@my.unt.edu"
-  headshot = "https://placehold.co/360x360/e8e8e8/1a1a1a?text=Photo"
+  headshot = "/img/headshot_square.jpeg"
   cv = "/pdf/dominic-carrillo-cv.pdf"
   github = "https://github.com/dwc13"
   linkedin = "https://www.linkedin.com/in/dwc13"
