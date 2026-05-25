@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{{ "js/theme.js" | relURL }}" defer></script>
+  </head>
+  <body class="site-body">
+    <div class="site-container mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-6 md:pt-10">
+      {{ partial "header.html" . }}
+      {{ block "main" . }}{{ end }}
+    </div>
+  </body>
+</html>

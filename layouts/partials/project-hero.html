@@ -1,0 +1,8 @@
+<a class="link-accent text-sm font-medium hover:opacity-80" href="{{ "/" | relURL }}">← Back to home</a>
+
+<header class="mt-6 mb-6">
+  <h1 class="text-2xl sm:text-3xl md:text-4xl font-light">{{ .Title }}</h1>
+  <div class="text-muted text-sm mt-2">
+    {{ with .Params.year }}{{ . }}{{ else }}{{ .Date.Format "2006" }}{{ end }}
+  </div>
+</header>

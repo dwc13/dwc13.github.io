@@ -1,0 +1,26 @@
+<footer class="mt-12 border-t border-theme pt-8">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+    <div>
+      <div class="font-semibold">{{ .Site.Title }}</div>
+      <div class="mt-2 text-muted">{{ .Site.Params.tagline }}</div>
+    </div>
+    <div>
+      <div class="font-semibold">Contact</div>
+      <div class="mt-2 space-y-1 text-muted">
+        <p><a href="mailto:{{ .Site.Params.email }}" class="link-accent hover:opacity-80">{{ .Site.Params.email }}</a></p>
+        <p><a href="mailto:{{ .Site.Params.schoolEmail }}" class="link-accent hover:opacity-80">{{ .Site.Params.schoolEmail }}</a></p>
+      </div>
+    </div>
+    <div>
+      <div class="font-semibold">Follow</div>
+      <div class="mt-2 space-y-1 text-muted">
+        <p><a href="{{ .Site.Params.github }}" class="link-accent hover:opacity-80">GitHub</a></p>
+        <p><a href="{{ .Site.Params.linkedin }}" class="link-accent hover:opacity-80">LinkedIn</a></p>
+        <p><a href="{{ .Site.Params.cv | relURL }}" class="link-accent hover:opacity-80">CV</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 border-t border-theme pt-4 text-xs text-muted">
+    © {{ now.Year }} {{ .Site.Title }}. All rights reserved.
+  </div>
+</footer>

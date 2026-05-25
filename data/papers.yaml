@@ -1,0 +1,98 @@
+items:
+  - title: "Bringing Different Views Together: A Hybrid Cooperative Perception Framework for Connected Autonomous Vehicles"
+    venue: "IEEE Network"
+    year: "2026"
+    link: "https://doi.org/10.1109/MNET.2025.3546821"
+    authors:
+      - Dominic Carrillo
+      - Michael Nutt
+      - Maarten Meijer
+      - Junaid Khan
+      - Song Fu
+      - Qing Yang
+  - title: "VirtualPainting: Addressing Sparsity with Virtual Points and Distance-Aware Data Augmentation for 3D Object Detection"
+    venue: "Sensors"
+    year: "2025"
+    link: "https://doi.org/10.3390/s25113367"
+    authors:
+      - Sudip Dhakal
+      - Deyuan Qu
+      - Dominic Carrillo
+      - Mohammad Dehghani Tezerjani
+      - Qing Yang
+  - title: "Real-Time Motion Planning for Autonomous Vehicles in Dynamic Environments"
+    venue: "Book chapter"
+    year: "2025"
+    link: "https://doi.org/10.1007/978-3-031-85902-1_14"
+    authors:
+      - Mohammad Dehghani Tezerjani
+      - Deyuan Qu
+      - Sudip Dhakal
+      - Dominic Carrillo
+      - Amir Mirzaeinia
+      - Qing Yang
+  - title: "Sniffer Faster R-CNN ++: An Efficient Camera-LiDAR Object Detector with Proposal Refinement on Fused Candidates"
+    venue: "ACM Journal on Autonomous Transportation Systems"
+    year: "2024"
+    link: "https://doi.org/10.1145/3631138"
+    authors:
+      - Sudip Dhakal
+      - Dominic Carrillo
+      - Deyuan Qu
+      - Qing Yang
+      - Song Fu
+  - title: "CoFF: Cooperative spatial feature fusion for 3-D object detection on autonomous vehicles"
+    venue: "IEEE Internet of Things Journal"
+    year: "2021"
+    link: "https://ieeexplore.ieee.org/abstract/document/9330564/"
+    authors:
+      - Jingda Guo
+      - Dominic Carrillo
+      - Sihai Tang
+      - Qi Chen
+      - Qing Yang
+      - Song Fu
+      - Xi Wang
+      - Nannan Wang
+      - Paparao Palacharla
+  - title: "Slim-FCP: Lightweight-feature-based cooperative perception for connected automated vehicles"
+    venue: "IEEE Internet of Things Journal"
+    year: "2022"
+    link: "https://ieeexplore.ieee.org/abstract/document/9718512/"
+    authors:
+      - Jingda Guo
+      - Dominic Carrillo
+      - Qi Chen
+      - Qing Yang
+      - Song Fu
+      - Hongsheng Lu
+      - Rui Guo
+  - title: "Oasd: An open approach to self-driving vehicle"
+    venue: "Fourth International Conference on Connected and Autonomous Driving (MetroCAD)"
+    year: "2021"
+    link: "https://ieeexplore.ieee.org/abstract/document/9499328/"
+    authors:
+      - Sudip Dhakal
+      - Deyuan Qu
+      - Dominic Carrillo
+      - Qing Yang
+      - Song Fu
+  - title: "Facial emotion recognition using cnn in pytorch"
+    venue: "arXiv preprint"
+    year: "2023"
+    link: "https://arxiv.org/abs/2312.10818"
+    authors:
+      - Deyuan Qu
+      - Sudip Dhakal
+      - Dominic Carrillo
+  - title: "Location Privacy Protection and 911 Task Allocation in Vehicle-Based via Differential Privacy"
+    venue: "2024 IEEE 100th Vehicular Technology Conference (VTC2024-Fall)"
+    year: "2024"
+    link: "https://ieeexplore.ieee.org/abstract/document/10757598/"
+    authors:
+      - Deyuan Qu
+      - Dominic Carrillo
+      - Sudip Dhakal
+      - Mohammad Dehghani Tezerjani
+      - Chenxi Qiu
+      - Qing Yang

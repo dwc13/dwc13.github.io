@@ -1,0 +1,47 @@
+visible:
+  - name: "Teaching, UNT"
+    description: Introduction to Programming with Python
+    year: "Fall 2025"
+  - name: SuperTruck3 with PACCAR
+    description: Industry collaboration under DOE initiative (under NDA)
+    year: "2023-2025"
+  - name: Connected Autonomous Vehicles Lab
+    description: Research in 2D/3D data fusion, cooperative perception, Autoware/ROS validation
+    year: "2019-"
+hidden:
+  - name: NSF IUCRC eCAT
+    description: Collaborative research on electrification, resilient sensing/perception, and edge computing
+    year: "2024-"
+  - name: Reviewer — MOST, INFOCOM
+    description: Peer reviewer for MOST (2024) and INFOCOM (2023)
+    year: "2023-2024"
+  - name: SHPE Graduate Representative Officer
+    description: Society of Hispanic Professional Engineers — graduate representative; student mentorship and events
+    year: "2021-2024"
+  - name: F1TENTH Environment System (CIIMS Lab)
+    description: Built F1TENTH research/education platform; reinforcement learning and robotics
+    year: "2020-2022"
+  - name: FR-Cooper — Feature Region Cooperative Perception
+    description: Extracts object regions from feature maps to minimize data transmission
+    year: "2023-2024"
+  - name: TA CSCE 4600 — Introduction to Operating Systems
+    description: 'Teaching assistant duties: grading, recitations, student support'
+    year: "Spring 2021"
+  - name: Raw Data Cooperative Perception
+    description: Preliminary F1TENTH study; Honorable Mention, CPS-IoT Week 2021
+    year: "2021"
+  - name: TEASER vs NDT Analysis
+    description: Comparative evaluation of registration algorithms for autonomous vehicle applications
+    year: "2021"
+  - name: TA CSCE 1010 — Discovering Computer Science
+    description: 'Teaching assistant duties: grading, recitations, student support'
+    year: "Fall 2019"
+  - name: Vehicle-to-Vehicle Communication Study
+    description: Unity simulation studying V2V communication and traffic response
+    year: "2017"
+  - name: Hockey Bracket Matrix Project
+    description: Use of Colley Method matrices to rank NHL teams
+    year: "2016"
+  - name: Carrillo's Automotive
+    description: 'Work: Electrical Mechanic and Shop Hands — diagnostic inspections, electrical troubleshooting'
+    year: "2014-2019"

@@ -1,0 +1,34 @@
+<section class="mt-10">
+  <div class="section-label">Background / News</div>
+  <div class="mt-4 surface-card p-4 sm:p-6">
+    <div class="space-y-3 text-sm">
+      <div class="work-list">
+      {{ range .Site.Data.work.visible }}
+        <div class="work-row">
+          <div class="font-semibold work-name">{{ .name }}</div>
+          <div class="text-muted work-description">{{ .description }}</div>
+          <div class="text-muted-fg work-year">{{ .year }}</div>
+        </div>
+      {{ end }}
+      </div>
+
+      <div id="expandedWorks" class="hidden work-list">
+        {{ range .Site.Data.work.hidden }}
+          <div class="work-row">
+            <div class="font-semibold work-name">{{ .name }}</div>
+            <div class="text-muted work-description">{{ .description }}</div>
+            <div class="text-muted-fg work-year">{{ .year }}</div>
+          </div>
+        {{ end }}
+      </div>
+
+      <button
+        type="button"
+        onclick="var el=document.getElementById('expandedWorks'); el.classList.toggle('hidden'); this.textContent=el.classList.contains('hidden')?'Expand ▼':'Collapse ▲';"
+        class="pt-2 link-accent font-semibold"
+      >
+        Expand ▼
+      </button>
+    </div>
+  </div>
+</section>

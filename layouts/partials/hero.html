@@ -1,0 +1,31 @@
+<section class="relative w-full">
+  <div class="rounded-lg overflow-hidden hero-banner">
+    <div class="hero-banner__pattern" aria-hidden="true"></div>
+    <div class="hero-banner__overlay" aria-hidden="true"></div>
+    <div class="hero-banner__content">
+      <div class="hero-banner__text w-full md:flex-1 md:min-w-0">
+        <h1>{{ .Site.Title }}</h1>
+        <h2 class="mt-4 hero-banner__subheading hero-tagline">{{ .Site.Params.tagline }}</h2>
+        <div class="hero-banner__meta">
+          <p class="hero-banner__description">{{ .Site.Params.description }}</p>
+        </div>
+        <p class="hero-banner__links">
+          <a href="{{ .Site.Params.github }}">GitHub</a>
+          ·
+          <a href="{{ .Site.Params.linkedin }}">LinkedIn</a>
+          ·
+          <a href="{{ .Site.Params.cv | relURL }}">CV</a>
+        </p>
+        <div class="hero-banner__email mt-3 text-sm">
+          <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br />
+          <a href="mailto:{{ .Site.Params.schoolEmail }}">{{ .Site.Params.schoolEmail }}</a>
+        </div>
+      </div>
+      <img
+        class="hero-banner__photo"
+        src="{{ "img/headshot_square.jpeg" | relURL }}"
+        alt="Profile portrait of Dominic Carrillo"
+      />
+    </div>
+  </div>
+</section>

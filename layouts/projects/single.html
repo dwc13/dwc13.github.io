@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ partial "project-hero.html" . }}
+  {{ partial "project-repo-link.html" . }}
+  {{ partial "project-gallery.html" . }}
+  <article class="prose-site max-w-none mt-8 surface-card p-6">
+    {{ with .Resources.GetMatch "body.md" }}
+      {{ .Content }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </article>
+  {{ partial "footer.html" . }}
+{{ end }}
